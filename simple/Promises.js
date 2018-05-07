@@ -29,4 +29,9 @@ async function f() {
 f();
 
 // chaining
-
+getPromise('Start')
+    .then((v) => {
+        return getPromise(`Following (${v})`);
+    })
+    .then(console.log)
+    .catch(console.error);
