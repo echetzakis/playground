@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/echetzakis/playground/issues"
   },
-  "homepage": "https://github.com/echetzakis/playground#readme"
+  "homepage": "https://github.com/echetzakis/playground#readme",
+  "engines": {
+    "node": "9.x.x"
+  }
 }
